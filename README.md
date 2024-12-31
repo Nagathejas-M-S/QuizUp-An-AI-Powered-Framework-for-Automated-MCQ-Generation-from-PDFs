@@ -1,4 +1,4 @@
-# QuizUp - AI Question Generator
+# QuizUp: An AI-Powered Framework for Automated MCQ Generation from PDFs
 
 QuizUp is a web-based application that leverages Google's Gemini 1.5 Pro AI model to automatically generate questions from uploaded documents. The application supports multiple question formats and difficulty levels, making it ideal for educators, students, and anyone looking to create quiz content from educational materials.
 
