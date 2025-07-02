@@ -16,7 +16,8 @@ from fpdf import FPDF
 # Set your API key
 os.environ["GOOGLE_API_KEY"] = "AIzaSyDJPHJ7mNelUISJJRuLSfOtv9qjxlK23Ds"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
-model = genai.GenerativeModel("models/gemini-1.5-pro")
+#model = genai.GenerativeModel("models/gemini-1.5-pro")
+model = genai.GenerativeModel("models/gemini-1.5-flash")
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
