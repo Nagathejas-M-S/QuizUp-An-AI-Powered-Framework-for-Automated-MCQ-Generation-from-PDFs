@@ -3,4 +3,5 @@ gunicorn
 pdfplumber
 python-docx
 google-generativeai
+fpdf
 
